@@ -180,7 +180,6 @@ header * {
 /* About End */
 /* Offers Section start */
 #offers {
-	position: relative;
 	height: 80vh;
 	background: url('./img/offer-background.jpg') center center/cover fixed;
 	display: flex;
@@ -231,7 +230,6 @@ header * {
 /* Offers Section end */
 /* Menu Section Start */
 #menu {
-	position: relative;
 	background: #f4f2ed;
 	padding: 5rem 0;
 }
