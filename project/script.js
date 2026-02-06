@@ -8,4 +8,6 @@ window.addEventListener('DOMContentLoaded', () => {
 			tabsContent.style.display = 'none'
 		})
 	}
+
+	hideContent()
 })
