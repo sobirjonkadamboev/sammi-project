@@ -2,7 +2,7 @@ const btn = document.querySelectorAll('button'),
 	wrapper = document.querySelector('.wrapper')
 
 wrapper.addEventListener('click', event => {
-	console.log(event)
+	console.log(event.target)
 })
 //console.log(btn[0].classList.value)
 //console.log(btn[0].classList)
