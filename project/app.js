@@ -11,7 +11,7 @@ const btn = document.querySelectorAll('button')
 
 btn[0].addEventListener('click', () => {
 	if (btn[0].classList.contains('red')) {
-		console.log('Element contains red class')
+		btn[0].classList.remove('red')
 	} else {
 		btn[0].classList.add('red')
 	}
