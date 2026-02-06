@@ -231,6 +231,7 @@ header * {
 /* Offers Section end */
 /* Menu Section Start */
 #menu {
+	position: relative;
 	background: #f4f2ed;
 	padding: 5rem 0;
 }
