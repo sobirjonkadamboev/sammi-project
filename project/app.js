@@ -9,11 +9,11 @@ const btn = document.querySelectorAll('button')
 	console.log('Element contains blue class')
 } */
 
-btn[0].addEventListener('click', () => {
-	/* if (btn[0].classList.contains('red')) {
-		btn[0].classList.remove('red')
-	} else {
-		btn[0].classList.add('red')
-	} */
-	btn[1].classList.toggle('red')
-})
+// btn[0].addEventListener('click', () => {
+// 	/* if (btn[0].classList.contains('red')) {
+// 		btn[0].classList.remove('red')
+// 	} else {
+// 		btn[0].classList.add('red')
+// 	} */
+// 	btn[1].classList.toggle('red')
+// })
