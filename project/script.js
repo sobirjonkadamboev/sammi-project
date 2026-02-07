@@ -13,6 +13,9 @@ window.addEventListener('DOMContentLoaded', () => {
 		tab.classList.remove('tabheader__item_active')
 	})
 
-	function showTabContent() {}
+	function showTabContent(index) {
+		tabsContent[index].style.display = 'block'
+		tabs[index].classList.add('tabheader__item_active')
+	}
 	hideContent()
 })
