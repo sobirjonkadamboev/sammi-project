@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
 	const tabs = document.querySelectorAll('.tabheader__item'),
 		tabsContent = document.querySelectorAll('.tab_content'),
-		tabsParents = document.querySelectorAll('.tabheader__items')
+		tabsParents = document.querySelector('.tabheader__items')
 
 	function hideContent() {
 		tabsContent.forEach(tabsContent => {
