@@ -12,5 +12,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	tabs.forEach(tab => {
 		tab.classList.remove('tabheader__item_active')
 	})
+
+	function showTabContent() {}
 	hideContent()
 })
