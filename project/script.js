@@ -18,4 +18,5 @@ window.addEventListener('DOMContentLoaded', () => {
 		tabs[index].classList.add('tabheader__item_active')
 	}
 	hideContent()
+	showTabContent(1)
 })
