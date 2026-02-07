@@ -22,5 +22,11 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	tabsParents.addEventListener('click', event => {
 		const target = event.target
+
+		if(target && target.classList.contains('tabheader__item')){
+			tabs.forEach((tab, index)) => {
+				if(target)
+			} 
+		}
 	})
 })
