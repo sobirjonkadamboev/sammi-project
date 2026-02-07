@@ -20,5 +20,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	hideContent()
 	showTabContent(0)
 
-	console.log(tabsParents)
+	tabsParents.addEventListener('click', event => {
+		const target = event.target
+	})
 })
