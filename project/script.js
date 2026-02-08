@@ -9,7 +9,12 @@ window.addEventListener('DOMContentLoaded', () => {
 		})
 	}
 
+	function showTabContent(index = 0) {
+		tabsContent[index].style.display = 'flex'
+		tabs[index].classList.add('tabheader__item_active')
+	}
 	hideContent()
+	showTabContent()
 
 	tabsParents.addEventListener('click', event => {
 		const target = event.target
