@@ -15,7 +15,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	function showTabContent(index = 0) {
 		tabsContent[index].style.display = 'flex'
-		tabs[index].classList.add('tabheader__item tabheader__item_active')
+		tabs[index].classList.add('tabheader__item_active')
 	}
 	hideContent()
 	showTabContent()
