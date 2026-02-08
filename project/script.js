@@ -25,6 +25,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
 		if (target && target.classList.contains('tabheader__item')) {
 			tabs.forEach((tab, index) => {
+				tab.classList.remove('tabheader__item_active')
+				tabsContent[index].style.display = 'none'
 				if (target === tab) {
 					hideContent()
 					showTabContent(index)
