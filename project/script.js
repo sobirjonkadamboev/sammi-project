@@ -28,8 +28,8 @@ window.addEventListener('DOMContentLoaded', () => {
 				tab.classList.remove('tabheader__item_active')
 				tabsContent[index].style.display = 'none'
 				if (tab === target) {
-					hideContent()
-					showTabContent(index)
+					tab.classList.add('tabheader__item_active')
+					tabsContent[index].style.display = 'flex'
 				}
 			})
 		}
