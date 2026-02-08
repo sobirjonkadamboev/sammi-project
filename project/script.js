@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		tab.classList.remove('tabheader__item_active')
 	})
 
-	function showTabContent(index) {
+	function showTabContent(index = 0) {
 		tabsContent[index].style.display = 'flex'
 		tabs[index].classList.add('tabheader__item_active')
 	}
