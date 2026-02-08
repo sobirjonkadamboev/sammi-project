@@ -3,9 +3,11 @@ window.addEventListener('DOMContentLoaded', () => {
 		tabsContent = document.querySelectorAll('.tab_content'),
 		tabsParents = document.querySelector('.tabheader__items')
 
-	tabs.forEach(tab => {
-		tab.classList.remove('tabheader__item_active')
-	})
+	function hideContent() {
+		tabsContent.forEach(tabsContent => {
+			tabsContent.style.display = 'none'
+		})
+	}
 
 	function showTabContent(index = 0) {
 		tabsContent[index].style.display = 'flex'
