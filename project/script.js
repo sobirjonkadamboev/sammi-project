@@ -23,13 +23,16 @@ window.addEventListener('DOMContentLoaded', () => {
 	tabsParents.addEventListener('click', event => {
 		const target = event.target
 
-		if(target && target.classList.contains('tabheader__item')){
-			tabs.forEach((tabs, index)) => {
-				if(target === tabs){
-					hideContent()
-					showTabContent(index)
-				}
-			} 
+		if (target && target.classList.contains('tabheader__item')) {
+			tabs.forEach(
+				(tabs,
+				index => {
+					if (target === tabs) {
+						hideContent()
+						showTabContent(index)
+					}
+				}),
+			)
 		}
 	})
 })
