@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	}
 
 	tabs.forEach(tab => {
-		tab.classList.remove('tabheader__item_active')
+		tab.classList.remove('tabheader__item')
 	})
 
 	function showTabContent(index = 0) {
