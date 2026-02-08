@@ -550,6 +550,12 @@ form button {
 	cursor: pointer;
 }
 
+.tabheader__item_active {
+	background-color: #383848;
+	color: #fff;
+	font-weight: bold;
+}
+
 .tabheader__items .tabheader__item.tabheader__item_active {
 	background-color: #383848;
 	color: #fff;
