@@ -25,6 +25,7 @@ let setTimer,
 
 btn.addEventListener('click', () => {
 	setTimer = setTimeout(interval, 500)
+	//setTimer = setInterval(interval, 500) //works every 0.5 seconds automatically
 	if (index === 5) {
 		clearInterval(setTimer)
 	}
