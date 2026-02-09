@@ -5,13 +5,13 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	function hideContent() {
 		tabsContent.forEach(tabsContent => {
-			tabsContent.classList.add('hide', 'fade')
+			tabsContent.classList.add('hide')
 			tabsContent.classList.remove('show')
 		})
 	}
 
 	function showTabContent(index = 0) {
-		tabsContent[index].classList.add('show', 'fade')
+		tabsContent[index].classList.add('show')
 		tabsContent[index].classList.remove('hide')
 		tabs[index].classList.add('tabheader__item_active', 'fade')
 	}
