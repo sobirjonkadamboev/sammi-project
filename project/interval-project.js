@@ -16,7 +16,7 @@ clearInterval(id) - deletes the interval
 
 function interval() {
 	console.log('3s timeout')
-} */
+} 
 
 const btn = document.querySelector('#btn')
 
@@ -35,7 +35,7 @@ btn.addEventListener('click', () => {
 	}
 })
 
-/* let id = setTimeout(function log() {
+let id = setTimeout(function log() {
 	console.log('this is interval')
 	id = setTimeout(log, 500)
 }, 500) */
