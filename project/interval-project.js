@@ -24,7 +24,7 @@ let setTimer,
 	index = 0
 
 btn.addEventListener('click', () => {
-	const id = setTimeout(interval, 500)
+	setTimer = setTimeout(interval, 500)
 	function interval() {
 		console.log('3s timeout')
 	}
