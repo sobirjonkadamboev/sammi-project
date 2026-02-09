@@ -34,3 +34,7 @@ btn.addEventListener('click', () => {
 		index++
 	}
 })
+
+let id = setTimeout(function log() {
+	console.log('this is interval')
+})
