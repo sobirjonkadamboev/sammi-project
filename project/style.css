@@ -879,11 +879,11 @@ form button {
 }
 
 .show {
-	display: flex !important;
+	display: flex;
 }
 
 .hide {
-	display: none !important;
+	display: none;
 }
 
 .fade {
