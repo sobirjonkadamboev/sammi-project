@@ -12,7 +12,7 @@ function interval() {
 
 const id = setTimeout(interval, 3000)
 
-clearInterval(id)
+// clearInterval(id) - deletes the interval
 
 function interval() {
 	console.log('3s timeout')
