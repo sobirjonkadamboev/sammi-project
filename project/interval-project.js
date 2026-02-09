@@ -55,4 +55,4 @@ const moveCar = () => {
 		}
 	}
 }
-btn.addEventListener('click', moveCar())
+btn.addEventListener('click', moveCar)
