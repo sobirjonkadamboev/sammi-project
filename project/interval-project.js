@@ -20,6 +20,9 @@ function interval() {
 
 const btn = document.querySelector('#btn')
 
+let setTimer,
+	index = 0
+
 btn.addEventListener('click', () => {
 	const id = setTimeout(interval, 500)
 	function interval() {
