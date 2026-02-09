@@ -47,7 +47,7 @@ const moveCar = () => {
 	const animationId = setInterval(moving, 10)
 
 	function moving() {
-		if (position === 1500) {
+		if (position === 1300) {
 			clearInterval()
 		} else {
 			position++
