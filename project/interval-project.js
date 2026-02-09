@@ -10,6 +10,9 @@ function interval() {
 }
 */
 
+
+const btn = document.querySelector('#btn')
+
 const id = setTimeout(interval, 3000)
 
 // clearInterval(id) - deletes the interval
