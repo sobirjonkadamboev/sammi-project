@@ -35,7 +35,7 @@ btn.addEventListener('click', () => {
 	}
 })
 
-let id = setTimeout(function log() {
+/* let id = setTimeout(function log() {
 	console.log('this is interval')
 	id = setTimeout(log, 500)
-}, 500)
+}, 500) */
