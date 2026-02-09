@@ -21,7 +21,7 @@ function interval() {
 const btn = document.querySelector('#btn')
 
 btn.addEventListener('click', () => {
-	const id = setTimeout(interval, 3000)
+	const id = setTimeout(interval, 500)
 	function interval() {
 		console.log('3s timeout')
 	}
