@@ -18,7 +18,7 @@ body {
 	height: 100px;
 	width: 900px;
 	position: absolute;
-	left: 10px;
+	left: 0;
 }
 .car img {
 	object-fit: cover;
