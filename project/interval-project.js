@@ -44,7 +44,7 @@ const moveCar = () => {
 	const car = document.querySelector('.car')
 	let position = 0
 
-	const animationId = setInterval(moving, 5)
+	const animationId = setInterval(moving, 3)
 
 	function moving() {
 		if (position === 1300) {
