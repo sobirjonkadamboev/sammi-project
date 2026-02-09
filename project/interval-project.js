@@ -38,3 +38,8 @@ let id = setTimeout(function log() {
 	console.log('this is interval')
 	id = setTimeout(log, 500)
 }, 500) */
+
+
+const moveCar = () => {
+	const car = document.querySelector('.car')
+}
