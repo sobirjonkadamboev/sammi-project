@@ -42,4 +42,13 @@ let id = setTimeout(function log() {
 const moveCar = () => {
 	const car = document.querySelector('.car')
 	let position = 0
+
+	function moving() {
+		if (position === 1000) {
+			clearInterval()
+		} else {
+			position++
+			car.style.left = position + 'px'
+		}
+	}
 }
