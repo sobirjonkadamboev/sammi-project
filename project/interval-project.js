@@ -10,6 +10,14 @@ function interval() {
 }
 */
 
+/* const id = setTimeout(interval, 3000)
+
+clearInterval(id) - deletes the interval
+
+function interval() {
+	console.log('3s timeout')
+} */
+
 const btn = document.querySelector('#btn')
 
 btn.addEventListener('click', () => {
@@ -18,11 +26,3 @@ btn.addEventListener('click', () => {
 		console.log('3s timeout')
 	}
 })
-
-/* const id = setTimeout(interval, 3000)
-
-clearInterval(id) - deletes the interval
-
-function interval() {
-	console.log('3s timeout')
-} */
