@@ -39,7 +39,7 @@ let id = setTimeout(function log() {
 	id = setTimeout(log, 500)
 }, 500) */
 
-
 const moveCar = () => {
 	const car = document.querySelector('.car')
+	let position = 0
 }
