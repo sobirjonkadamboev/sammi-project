@@ -3,8 +3,8 @@ setTimeout(() => {
 }, 1500) //1 second = 1000ms
 
 //2.
-setTimeout(, 3000)
+setTimeout(interval, 3000)
 
 function interval() {
-	console.log('3s interval')
+	console.log('3s timeout')
 }
