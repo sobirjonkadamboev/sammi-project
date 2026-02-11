@@ -15,3 +15,6 @@ for (let i = 0; i < 1000; i++) {
 	let number = i ** 3
 }
 
+let endDate = new Date()
+
+console.log(`Loop was worked ${endDate - startDate} milliseconds`)
