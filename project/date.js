@@ -11,7 +11,7 @@
 
 let startDate = new Date()
 
-for (let i = 0; i < 1000; i++) {
+for (let i = 0; i < 100000; i++) {
 	let number = i ** 3
 }
 
