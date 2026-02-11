@@ -1,2 +1,2 @@
-const now = new Date('2006-11-15')
+const now = new Date()
 console.log(now.getHours())
