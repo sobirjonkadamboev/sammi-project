@@ -9,9 +9,8 @@
 // // now.setHours(12)
 // // console.log(now)
 
-
 let startDate = new Date()
 
-for(let i = 0; i < 100; i++){
-	let number i ** 3
+for (let i = 0; i < 100; i++) {
+	let number = i ** 3
 }
