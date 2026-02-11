@@ -1,6 +1,7 @@
 const now = new Date()
 
-console.log(new Date.parse('2006-11-15'))
+const parse = new Date.parse('2006-11-15')
+console.log(parse)
 // console.log(now.getFullYear())
 // console.log(now.getHours())
 // console.log(now.getUTCHours())
